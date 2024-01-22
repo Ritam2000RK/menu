@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(135, 206, 235, 0.1);
+}
+
+header {
+  margin-top: 4%;
+  display: inline-block;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 1.5rem 0.5rem;
+}
+
+.navBtn {
+  font-size: 1.1rem;
+  padding: 0.3rem 0.7rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  border: 2px solid #c59d5f;
+  color: #c59d5f;
+  box-shadow: 1px 2px 1px black;
+  transition: background-color 0.8s ease;
+  background-color: white;
+}
+
+.navBtn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #c59d5f;
+}
+
+main {
+    padding: 2% 15% 0 15%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-img img {
+  height: 9rem;
+  width: 14rem;
+  border: 5px solid #c59d5f;
+  border-radius: .5rem;
+}
+
+.product {
+  display: flex;
+  width: 48%;
+  margin-bottom: 3.5rem;
+  background-size: cover;
+}
+
+.product-description {
+  padding-left: 1rem;
+}
+
+.product-heading {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: .2rem;
+}
+
+.product-body {
+  padding-top: 5%;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.price {
+  color: #c59d5f;
+}
