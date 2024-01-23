@@ -50,7 +50,6 @@ header ul li {
 main {
     padding: 2% 15% 0 15%;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-between;
 }
