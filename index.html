@@ -17,15 +17,15 @@
   <body>
     <header>
       <h1>Our Menu</h1>
-      <ul>
-        <li><button class="navBtn">All</button></li>
-        <li><button class="navBtn">Breakfast</button></li>
-        <li><button class="navBtn">Lunch</button></li>
-        <li><button class="navBtn">Shakes</button></li>
-        <li><button class="navBtn">Dinner</button></li>
+      <ul class="btn-container">
+        <!-- <li><button type="button" class="navBtn" data-id="all">All</button></li>
+        <li><button type="button" class="navBtn" data-id="breakfast">Breakfast</button></li>
+        <li><button type="button" class="navBtn" data-id="lunch">Lunch</button></li>
+        <li><button type="button" class="navBtn" data-id="shakes">Shakes</button></li>
+        <li><button type="button" class="navBtn">Dinner</button></li> -->
       </ul>
     </header>
-    <main>
+    <main id="main-id">
       <section class="product">
         <div class="product-img">
           <img loading="lazy"src="./resources/item-1.jpeg" alt="Buttermilk Pankcakes" />
@@ -44,168 +44,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-2.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Dinner Double</h3>
-            <h3 class="price">$13.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              vaporware iPhone mumblecore selvage raw denim slow-carb leggings
-              gochujang helvetica man braid jianbing. Marfa thundercats
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-3.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Godzilla Milkshake</h3>
-            <h3 class="price">$6.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              ombucha chillwave fanny pack 3 wolf moon street art photo booth
-              before they sold out organic viral.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-4.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Country Delight</h3>
-            <h3 class="price">$20.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism
-              austin mlkshk truffaut,
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-5.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Egg Attack</h3>
-            <h3 class="price">$22.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              franzen vegan pabst bicycle rights kickstarter pinterest
-              meditation farm-to-table 90's pop-up
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-6.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Oreo Dream</h3>
-            <h3 class="price">$18.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              Portland chicharrones ethical edison bulb, palo santo craft beer
-              chia heirloom iPhone everyday
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-7.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Bacon Overflow</h3>
-            <h3 class="price">$8.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              carry jianbing normcore freegan. Viral single-origin coffee
-              live-edge, pork belly cloud bread iceland put a bird
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-8.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>American Classic</h3>
-            <h3 class="price">$12.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              on it tumblr kickstarter thundercats migas everyday carry squid
-              palo santo leggings. Food truck truffaut
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-9.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Quarantine Buddy</h3>
-            <h3 class="price">$16.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
-              freegan copper mug whatever cold-pressed
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="product">
-        <div class="product-img">
-          <img loading="lazy" src="./resources/item-10.jpeg" alt="Buttermilk Pankcakes" />
-        </div>
-        <div class="product-description">
-          <div class="product-heading">
-            <h3>Steak Dinner</h3>
-            <h3 class="price">$39.99</h3>
-          </div>
-          <hr />
-          <div class="product-body">
-            <p>
-              skateboard fam synth authentic semiotics. Live-edge lyft af,
-              edison bulb yuccie crucifix microdosing.
-            </p>
-          </div>
-        </div>
-      </section> -->
+      
     </main>
     <script src="app.js"></script>
   </body>
